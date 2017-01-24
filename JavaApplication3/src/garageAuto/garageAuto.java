@@ -52,13 +52,14 @@ public class garageAuto {
                             Scanner reader5 = new Scanner(System.in);
                             panne = reader5.nextInt();
                             if (panne==1) {
-                                g.add(new vehicule());
+                                g.add(new voiture(NomDeVoiture));
+                                
                             }
                             break;
                         case 2:
                             System.out.println("Taper le nom");
                             Scanner reader4 = new Scanner(System.in);
-                            NomDeVoiture = reader4.nextLine();
+                            NomDeMoto = reader4.nextLine();
                     }
                    
                  
