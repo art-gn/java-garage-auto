@@ -9,13 +9,10 @@ package garageAuto;
  *
  * @author arthur
  */
-public class JavaApplication3 {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
+public class moto extends vehicule {
+    String NomMoto;
     
+    moto(String NomMoto){
+        this.NomMoto=NomMoto;
+    }
 }
